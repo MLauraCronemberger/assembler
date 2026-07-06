@@ -16,4 +16,7 @@ Thumbs.db
  
 # Arquivos gerados pelo tradutor (não versionar saídas)
 *.asm
+!src/test/resources/
+!src/test/resources/**/
+!src/test/resources/**/*.asm
 *.out
