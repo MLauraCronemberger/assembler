@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
  
     <groupId>br.com</groupId>
-    <artifactId>vmtranslator</artifactId>
+    <artifactId>assembler</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
  
@@ -34,7 +34,7 @@
                 <version>3.1.2</version>
             </plugin>
  
-            <!-- gera um jar executável com manifest apontando para VMTranslator -->
+            <!-- gera um jar executável com manifest apontando para Assembler -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
@@ -42,10 +42,10 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>br.com.VMTranslator</mainClass>
+                            <mainClass>br.com.Assembler</mainClass>
                         </manifest>
                     </archive>
-                    <finalName>vmtranslator</finalName>
+                    <finalName>assembler</finalName>
                 </configuration>
             </plugin>
         </plugins>
